@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart - eCommerce HTML Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="bg-light">
+            <div class="container py-3">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-6">
+                        <a href="index.html">
+                            <img class="img-fluid"src="https://freshcart.codescandy.com/assets/images/logo/freshcart-logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-6 text-end">
+                        <div class="icons">
+                            <i class="me-3 fa-solid fa-heart"></i>
+                            <i class="me-3 fa-solid fa-user"></i>
+                            <a href="basket.html"><i class="me-3 shop fa-solid fa-bag-shopping"><span>0</span></i></a>                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div id="Clear">
+        <a href="" class="btn btn-dark w-100 my-3">Clear Basket</a>
+    </div>
+    <section id="Basket">
+        <div class="container">
+            <div id="main" class="d-none">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="b-left mt-5">
+                            <ul class="list-group ">
+                               
+                              </ul>
+                        </div>
+                        <div><button id="specific" type="button" class="btn btn-dark mt-3 w-100 ">Delete selected items</button></div>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <div class="card">
+                            <h5 class="card-header py-3">Selected products (<span></span>)</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item py-4 d-flex justify-content-between align-items-center text-muted"> <span>Total</span> <span id="total"></span></li>
+                                <li class="list-group-item"><a href="#" class="btn btn-success w-100">Proceed To Checkout </a></li>
+                              </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div id="show" class="text-center d-none">
+            <div class="s-img">
+                <img class="img-fluid" src="assets/images/undefined.png" alt="">
+            </div>
+            <div class="s-text">
+               <h2>Your Cart Is Empty</h2>
+               <a class="btn" href="index.html">Go To Shopping</a>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/basket.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

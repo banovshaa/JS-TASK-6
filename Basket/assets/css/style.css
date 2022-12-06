@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .icons i {
+  font-size: 18px;
+  color: #333;
+}
+header .icons .shop {
+  position: relative;
+}
+header .icons .shop span {
+  position: absolute;
+  right: -10px;
+  top: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  background-color: #139a74;
+  border-radius: 100%;
+  color: #fff;
+  padding: 5px;
+  font-size: 10px;
+}
+
+#First .btn {
+  background-color: #0aad0a;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+#First .card-title {
+  font-size: 16px;
+}
+#First .alert {
+  transition: 0.6s;
+  position: fixed;
+  right: -100%;
+  bottom: 30px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #139a74;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#Basket #price p {
+  font-size: 14px;
+  color: rgb(160, 156, 156);
+}
+#Basket .b-icons i {
+  font-size: 25px;
+}
+#Basket .b-icons i:first-child {
+  color: rgb(167, 158, 158);
+}
+#Basket .b-icons i:last-child {
+  color: #0aad0a;
+}
+#Basket .b-icons input {
+  width: 40px;
+  text-align: center;
+}
+#Basket .b-icons input::-webkit-outer-spin-button,
+#Basket .b-icons input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#Basket #close i {
+  font-size: 30px;
+}
+#Basket .card .card-header {
+  font-size: 15px;
+}
+#Basket .card .btn {
+  border-radius: 30px;
+}
+#Basket #show .s-img {
+  width: 25%;
+  margin: 3rem auto;
+}
+#Basket #show .s-text h2 {
+  color: #139a74;
+}
+#Basket #show .s-text a {
+  background-color: #333;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

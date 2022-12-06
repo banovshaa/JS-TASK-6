@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    .icons{
+        i{
+            font-size: 18px;
+            color: #333;
+        }
+        .shop{
+            position: relative;
+            span{
+                position: absolute;
+                right: -10px;
+                top: -6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 15px;
+                height: 15px;
+                background-color: #139a74;
+                border-radius: 100%;
+                color: #fff;
+                padding: 5px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+#First{
+    .btn{
+        background-color: #0aad0a;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .alert{
+        transition: .6s;
+        position: fixed;
+        right: -100%;
+        bottom: 30px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: #139a74;
+        color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+#Basket{
+    #price{
+        p{
+            font-size: 14px;
+            color: rgb(160, 156, 156);
+        }
+    }
+    .b-icons{
+        i{
+            font-size: 25px;
+            &:first-child{
+                color: rgb(167, 158, 158);
+            }
+            &:last-child{
+                color:#0aad0a;
+            }
+        }
+        input{
+            width: 40px;
+            text-align: center;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+           -webkit-appearance: none;
+           margin: 0;
+        }
+    }
+    #close{
+        i{
+            font-size: 30px;
+        }
+    }
+    .card{
+        .card-header{
+            font-size: 15px;
+        }
+        .btn{
+            border-radius: 30px;
+        }
+    }
+    #show{
+        .s-img{
+            width: 25%;
+            margin: 3rem auto;
+        }
+        .s-text{
+            h2{
+                color: #139a74;
+            }
+            a{
+                background-color: #333;
+                color: #fff;
+            }
+        }
+    }
+}
