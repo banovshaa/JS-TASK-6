@@ -59,6 +59,7 @@ header .icons .shop span {
   color: rgb(160, 156, 156);
 }
 #Basket .b-icons i {
+  cursor: pointer;
   font-size: 25px;
 }
 #Basket .b-icons i:first-child {
@@ -77,6 +78,7 @@ header .icons .shop span {
   margin: 0;
 }
 #Basket #close i {
+  cursor: pointer;
   font-size: 30px;
 }
 #Basket .card .card-header {

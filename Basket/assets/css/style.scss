@@ -65,6 +65,7 @@ header{
     }
     .b-icons{
         i{
+            cursor: pointer;
             font-size: 25px;
             &:first-child{
                 color: rgb(167, 158, 158);
@@ -85,6 +86,7 @@ header{
     }
     #close{
         i{
+            cursor: pointer;
             font-size: 30px;
         }
     }
